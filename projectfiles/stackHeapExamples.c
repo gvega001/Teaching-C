@@ -7,7 +7,7 @@ void stackExample() {
 }
 
 void heapExample() {
-    int* headVar == (int*)malloc(sizeof(int)); // Heap variable
+    int* headVar = (int*)malloc(sizeof(int)); // Heap variable
     if(headVar == NULL) {
         fprintf(stderr, "Memory allocation failed \n");
         return;
