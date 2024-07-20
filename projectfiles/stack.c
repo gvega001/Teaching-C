@@ -40,7 +40,7 @@ int main() {
     push(&s, 20);
     push(&s, 30);
 
-    printf("Popped element: %d\n", pop(&s)):
+    printf("Popped element: %d\n", pop(&s));
     printf("Popped element: %d\n", pop(&s));
 
     return 0;
