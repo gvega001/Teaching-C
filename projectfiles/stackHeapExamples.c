@@ -15,6 +15,7 @@ void heapExample() {
     *headVar = 42;
     printf("Heap variable: %d\n", *headVar);
     free(headVar); // Free the allocated memory
+    headVar = NULL; // Set the pointer to NULL to avoid a dangling pointer
 }
 
 int main() {
